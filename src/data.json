@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Elemento A", "data": [5, 10, 15, 20] },
+  { "id": 2, "name": "Elemento B", "data": [7, 14, 21, 28] },
+  { "id": 3, "name": "Elemento C", "data": [10, 20, 30, 40] }
+]
