@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "nombre": "Lewandowski",
+    "posicion": "Delantero",
+    "equipo": "FC Barcelona",
+    "partidos": 4,
+    "puntos": 142,
+    "valor": 21060000
+  },
+  {
+    "id": 2,
+    "nombre": "Vinícius Júnior",
+    "posicion": "Delantero",
+    "equipo": "Real Madrid",
+    "partidos": 23,
+    "puntos": 122,
+    "valor": 19830000
+  },
+  {
+    "id": 3,
+    "nombre": "Vitor Roque",
+    "posicion": "Delantero",
+    "equipo": "Atletico Paranaense",
+    "partidos": 13,
+    "puntos": 50,
+    "valor": 4530000
+  },
+  {
+    "id": 4,
+    "nombre": "Álex Berenguer",
+    "posicion": "Centrocampista",
+    "equipo": "Athletic Club",
+    "partidos": 7,
+    "puntos": 80,
+    "valor": 5160000
+  },
+  {
+    "id": 5,
+    "nombre": "Jofre Carreras",
+    "posicion": "Centrocampista",
+    "equipo": "Espanyol",
+    "partidos": 7,
+    "puntos": 58,
+    "valor": 2250000
+  },
+  {
+    "id": 6,
+    "nombre": "Kike Pérez",
+    "posicion": "Centrocampista",
+    "equipo": "Real Valladolid",
+    "partidos": 7,
+    "puntos": 57,
+    "valor": 1730000
+  },
+  {
+    "id": 7,
+    "nombre": "Sergi Altimira",
+    "posicion": "Centrocampista",
+    "equipo": "FC Barcelona B",
+    "partidos": 8,
+    "puntos": 56,
+    "valor": 2270000
+  },
+  {
+    "id": 8,
+    "nombre": "Ruiz de Galarreta",
+    "posicion": "Centrocampista",
+    "equipo": "Athletic Club",
+    "partidos": 9,
+    "puntos": 45,
+    "valor": 1920000
+  },
+  {
+    "id": 9,
+    "nombre": "Campaña",
+    "posicion": "Centrocampista",
+    "equipo": "Levante",
+    "partidos": 5,
+    "puntos": 45,
+    "valor": 2450000
+  },
+  {
+    "id": 10,
+    "nombre": "Zubeldia",
+    "posicion": "Defensa",
+    "equipo": "Real Sociedad",
+    "partidos": 9,
+    "puntos": 50,
+    "valor": 2160000
+  },
+  {
+    "id": 11,
+    "nombre": "Nahuel Molina",
+    "posicion": "Defensa",
+    "equipo": "Atlético de Madrid",
+    "partidos": 5,
+    "puntos": 47,
+    "valor": 1970000
+  },
+  {
+    "id": 12,
+    "nombre": "Marc Bartra",
+    "posicion": "Defensa",
+    "equipo": "Real Betis",
+    "partidos": 11,
+    "puntos": 46,
+    "valor": 2590000
+  },
+  {
+    "id": 13,
+    "nombre": "Javi Sánchez",
+    "posicion": "Defensa",
+    "equipo": "Real Valladolid",
+    "partidos": 4,
+    "puntos": 30,
+    "valor": 1080000
+  },
+  {
+    "id": 14,
+    "nombre": "Kambwala",
+    "posicion": "Defensa",
+    "equipo": "Manchester United",
+    "partidos": 6,
+    "puntos": 6,
+    "valor": 420000
+  },
+  {
+    "id": 15,
+    "nombre": "Joan García",
+    "posicion": "Portero",
+    "equipo": "Espanyol",
+    "partidos": 1,
+    "puntos": 78,
+    "valor": 4080000
+  }
+]
