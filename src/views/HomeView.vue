@@ -1,55 +1,36 @@
-<template>
-  <div class="container mx-auto">
-    <h1 class="text-2xl font-bold mb-4">Lista de Elementos</h1>
-    <table class="min-w-full bg-white">
-      <thead>
-        <tr>
-          <th class="py-2">Nombre</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="item in items" :key="item?.id as number">
-          <td class="border px-4 py-2">
-            <router-link :to="{ name: 'Details', params: { id: item.id } }">{{
-              item.name
-            }}</router-link>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</template>
+<script setup lang="ts">
+import { ref, onMounted } from 'vue'
 
-<script lang="ts">
-import { defineComponent, ref, onMounted } from 'vue'
-// Importa los datos locales desde el archivo JSON
-import localData from '../data.json'
+// Definir la URL de la API a través de una variable de entorno
+const apiUrl = import.meta.env.VITE_API_URL
 
-export default defineComponent({
-  setup() {
-    const items = ref([])
+// Función para obtener datos desde la API
+const fetchTeam = async () => {
+  try {
+    const response = await fetch(`${apiUrl}/team`)
+    const data = await response.json()
+    return data
+  } catch (error) {
+    console.error('Error fetching data:', error)
+    return [] // Devuelve un array vacío si ocurre un error
+  }
+}
 
-    onMounted(() => {
-      // Cargar los datos del archivo JSON local
-      items.value = localData
+// Estado reactivo para almacenar los datos
+const items = ref<any[]>([])
 
-      // Código con Axios comentado para futuras peticiones a la API
-      // async function fetchItems() {
-      //   try {
-      //     const response = await axios.get('https://tu-api.com/api/items');
-      //     items.value = response.data;
-      //   } catch (error) {
-      //     console.error("Error al cargar los datos desde la API:", error);
-      //   }
-      // }
-      // fetchItems();
-    })
-
-    return { items }
-  },
+// Llamar a la API cuando el componente se monte
+onMounted(async () => {
+  items.value = await fetchTeam()
 })
 </script>
 
-<style scoped>
-/* Opcional: Estilos adicionales */
-</style>
+<template>
+  <div>
+    <h2>home</h2>
+    <!-- Renderiza los datos obtenidos de la API -->
+    <ul>
+      <li v-for="item in items" :key="item.id">{{ item.name }}</li>
+    </ul>
+  </div>
+</template>
