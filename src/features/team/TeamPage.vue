@@ -3,6 +3,7 @@
     <!-- <h1 class="text-2xl font-bold mb-6">Equipo de Jugadores</h1> -->
 
     <!-- Zona de Equipo con Jugadores -->
+    <ButtonUi variant="destructive"> Destructive </ButtonUi>
     <div
       class="team drop-zone w-full mb-6 p-4 border border-gray-300 rounded-md shadow bg-green-50"
       @drop="onDrop($event, 'team')"
@@ -95,6 +96,7 @@
 import { ref, computed, onMounted } from 'vue'
 import type { Player } from './teamTypes'
 import { fetchTeam } from './teamApi'
+import { ButtonUi } from '@/components/ui/button'
 
 const team = ref<Player[]>([]) // Lista de jugadores en el equipo
 const availablePlayers = ref<Player[]>([]) // Zona de ventas
