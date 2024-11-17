@@ -13,6 +13,8 @@ const router = createRouter({
     },
 
     { path: '/team', name: 'Team', component: TeamPage },
+    { path: '/market', name: 'Team', component: TeamPage },
+    { path: '/rivals', name: 'Team', component: TeamPage },
   ],
 })
 
