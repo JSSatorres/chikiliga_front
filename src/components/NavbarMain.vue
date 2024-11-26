@@ -16,7 +16,7 @@ const navigationItems = [
   },
   {
     name: 'Market',
-    children: ['Hoasdasdme', 'Masaddasdrket', 'Tdasdaseam', 'Modasdasdaney'],
+    children: ['market', 'Masaddasdrket', 'Tdasdaseam', 'Modasdasdaney'],
   },
   { name: 'Team', to: '/team' },
   {
