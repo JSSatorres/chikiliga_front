@@ -1,6 +1,5 @@
+import { apiUrl } from '@/shared/config'
 import playersData from './teamMooc.json'
-
-const apiUrl = import.meta.env.VITE_API_URL
 
 export const fetchTeam = async () => {
   try {
