@@ -41,13 +41,6 @@
       estratégicos, aquí encontrarás todo lo que necesitas para llevar tu
       comprensión del fútbol al siguiente nivel.
     </p>
-    <!-- Sección opcional para mostrar los datos de la API -->
-    <!-- <h2 class="text-2xl font-semibold text-gray-800 mt-6">Equipo</h2>
-    <ul class="mt-4 space-y-2">
-      <li v-for="item in items" :key="item.id" class="text-gray-700">
-        {{ item.name }}
-      </li>
-    </ul> -->
   </div>
 </template>
 
