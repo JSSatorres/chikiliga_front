@@ -52,7 +52,7 @@ interface MarketPlayer extends Player {
 const market = ref<MarketPlayer[]>([])
 
 onMounted(async () => {
-  market.value = (await fetchMarket()).map(player => ({
+  market.value = (await fetchMarket()).map((player: Player) => ({
     ...player,
     selected: false, // Inicializamos el estado seleccionado como falso
   }))
