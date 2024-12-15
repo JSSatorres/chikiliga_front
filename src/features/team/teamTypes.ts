@@ -6,6 +6,7 @@ export interface Player {
   partidos: number
   puntos: number
   valor: number
+  photoUrl: string
 }
 
 export interface Team {
