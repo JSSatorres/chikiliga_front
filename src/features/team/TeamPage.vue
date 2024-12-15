@@ -24,7 +24,7 @@
         <!-- Información del Jugador -->
         <div class="flex items-center space-x-3">
           <img
-            :src="player.photoUrl || '/default-image-url.jpg'"
+            :src="player?.photoUrl || '/default-image-url.jpg'"
             alt="Foto"
             class="w-10 h-10 rounded-full"
           />
