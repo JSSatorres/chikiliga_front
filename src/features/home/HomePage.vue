@@ -16,6 +16,11 @@
       estratégicos, aquí encontrarás todo lo que necesitas para llevar tu
       comprensión del fútbol al siguiente nivel.
     </p>
+    <img
+      src="https://via.placeholder.com/150"
+      alt="Imagen de Emildini"
+      class="w-32 h-32 rounded-full mb-6"
+    />
   </div>
 </template>
 
