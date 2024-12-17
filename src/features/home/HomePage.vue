@@ -2,12 +2,14 @@
 
 <template>
   <div
-    class="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-6"
+    class="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4 sm:p-6"
   >
-    <h1 class="text-4xl font-bold text-gray-800 mb-4 text-center">
+    <h1 class="text-2xl sm:text-4xl font-bold text-gray-800 mb-4 text-center">
       Bienvenido a la casa de la eminencia Emildini
     </h1>
-    <p class="text-lg text-gray-600 max-w-2xl text-center mb-8">
+    <p
+      class="text-base sm:text-lg text-gray-600 max-w-full sm:max-w-2xl text-center mb-6 sm:mb-8"
+    >
       Aquí encontrarás una fuente de conocimiento sobre fútbol, con una visión
       única y profunda de las estadísticas avanzadas del deporte. Emildini, una
       eminencia en el análisis futbolístico, te ofrece insights y datos
