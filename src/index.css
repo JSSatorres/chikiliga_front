@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .custom-div {
+    @apply border border-gray-300 rounded-md shadow bg-[#f0f4f8] mb-6 p-4;
+  }
+}
